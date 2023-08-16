@@ -1,0 +1,67 @@
+.App{
+    background-color: #041f2e;
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.App h1, h2{
+    color: white;
+}
+
+.App Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.caja{
+    margin: 4px auto;
+    display: flex;
+
+}
+
+#error{
+    color:red;
+}
+
+.caja input{
+    width: 350px;
+    border-radius: 2px;
+    border: 1px solid #2e324e;
+    height: 20px;
+    padding: 5px;
+}
+
+.App Form button{
+    background-color: #325fa3;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 11px auto;
+    width: 50%;
+}
+
+.cajaErrores{
+    display: none;
+    background-color: #ffd8d1;
+    padding: 10px;
+    border: solid 1px red;
+    border-radius: 3px;
+    margin-top: 5%;
+    color: brown;
+}
+
+.card{
+    background-color: #bcddbc;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
